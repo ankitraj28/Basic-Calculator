@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+*{
+    background-color: rgb(130, 184, 232);
+}
+#head{
+    max-width: 60vh;
+    margin: auto;
+    text-align: center;
+
+}
+#head p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: rgb(5, 37, 65);
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container{
+    
+    align-items: center;
+    max-width: 50vh;
+    margin: auto;
+}
